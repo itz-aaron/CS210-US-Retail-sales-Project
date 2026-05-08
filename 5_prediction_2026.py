@@ -9,7 +9,6 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 db_path = os.path.join(script_dir, "retail_data.db")
 conn = sqlite3.connect(db_path)
 
-# DATA SCIENCE FIX: We filter for Year >= 2015 to capture modern growth trends
 query = """
     SELECT NAICS_Code, Category, Year, SUM(Sales_Millions) as Sales
     FROM sales_history
@@ -33,8 +32,6 @@ for code in unique_codes:
 
     X = sector_df[['Year']]
     y = sector_df['Sales_Billions']
-
-    # Splitting modern data (2015-2025)
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
     
     model = LinearRegression()
