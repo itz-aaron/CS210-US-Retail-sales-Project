@@ -1,0 +1,157 @@
+Year,NAICS_Code,Category,Sales_Billions,R2_Score,Data_Type
+2015,441,Motor vehicle and parts dealers,1086.738,,Actual
+2015,442,Furniture and home furnishings stores,105.344,,Actual
+2015,443,Electronics and appliance stores,98.796,,Actual
+2015,444,Building mat. and garden equip. and supplies dealers,321.821,,Actual
+2015,445,Food and beverage stores,679.303,,Actual
+2015,446,Health and personal care stores,302.036,,Actual
+2015,447,Gasoline stations,454.413,,Actual
+2015,448,Clothing and clothing access. stores,250.435,,Actual
+2015,451,"Sporting goods, hobby, musical instrument, and book stores",82.062,,Actual
+2015,452,General merchandise stores,678.705,,Actual
+2015,453,Miscellaneous store retailers,105.734,,Actual
+2015,454,Nonstore retailers,472.926,,Actual
+2015,722,Food services and drinking places,610.697,,Actual
+2016,441,Motor vehicle and parts dealers,1135.142,,Actual
+2016,442,Furniture and home furnishings stores,109.86,,Actual
+2016,443,Electronics and appliance stores,92.602,,Actual
+2016,444,Building mat. and garden equip. and supplies dealers,335.534,,Actual
+2016,445,Food and beverage stores,694.436,,Actual
+2016,446,Health and personal care stores,312.173,,Actual
+2016,447,Gasoline stations,434.739,,Actual
+2016,448,Clothing and clothing access. stores,254.284,,Actual
+2016,451,"Sporting goods, hobby, musical instrument, and book stores",82.93,,Actual
+2016,452,General merchandise stores,681.42,,Actual
+2016,453,Miscellaneous store retailers,108.434,,Actual
+2016,454,Nonstore retailers,517.599,,Actual
+2016,722,Food services and drinking places,644.21,,Actual
+2017,441,Motor vehicle and parts dealers,1167.769,,Actual
+2017,442,Furniture and home furnishings stores,112.824,,Actual
+2017,443,Electronics and appliance stores,91.104,,Actual
+2017,444,Building mat. and garden equip. and supplies dealers,346.953,,Actual
+2017,445,Food and beverage stores,721.376,,Actual
+2017,446,Health and personal care stores,319.471,,Actual
+2017,447,Gasoline stations,475.068,,Actual
+2017,448,Clothing and clothing access. stores,254.561,,Actual
+2017,451,"Sporting goods, hobby, musical instrument, and book stores",80.53,,Actual
+2017,452,General merchandise stores,690.326,,Actual
+2017,453,Miscellaneous store retailers,110.485,,Actual
+2017,454,Nonstore retailers,579.137,,Actual
+2017,722,Food services and drinking places,678.147,,Actual
+2018,441,Motor vehicle and parts dealers,1186.106,,Actual
+2018,442,Furniture and home furnishings stores,116.53,,Actual
+2018,443,Electronics and appliance stores,92.577,,Actual
+2018,444,Building mat. and garden equip. and supplies dealers,364.739,,Actual
+2018,445,Food and beverage stores,742.501,,Actual
+2018,446,Health and personal care stores,333.314,,Actual
+2018,447,Gasoline stations,522.394,,Actual
+2018,448,Clothing and clothing access. stores,259.365,,Actual
+2018,451,"Sporting goods, hobby, musical instrument, and book stores",76.59,,Actual
+2018,452,General merchandise stores,705.107,,Actual
+2018,453,Miscellaneous store retailers,115.383,,Actual
+2018,454,Nonstore retailers,646.557,,Actual
+2018,722,Food services and drinking places,716.914,,Actual
+2019,441,Motor vehicle and parts dealers,1216.801,,Actual
+2019,442,Furniture and home furnishings stores,118.037,,Actual
+2019,443,Electronics and appliance stores,89.513,,Actual
+2019,444,Building mat. and garden equip. and supplies dealers,370.09,,Actual
+2019,445,Food and beverage stores,767.162,,Actual
+2019,446,Health and personal care stores,342.392,,Actual
+2019,447,Gasoline stations,512.665,,Actual
+2019,448,Clothing and clothing access. stores,261.269,,Actual
+2019,451,"Sporting goods, hobby, musical instrument, and book stores",76.028,,Actual
+2019,452,General merchandise stores,713.929,,Actual
+2019,453,Miscellaneous store retailers,118.563,,Actual
+2019,454,Nonstore retailers,720.885,,Actual
+2019,722,Food services and drinking places,757.342,,Actual
+2020,441,Motor vehicle and parts dealers,1187.796,,Actual
+2020,442,Furniture and home furnishings stores,111.118,,Actual
+2020,443,Electronics and appliance stores,73.453,,Actual
+2020,444,Building mat. and garden equip. and supplies dealers,418.577,,Actual
+2020,445,Food and beverage stores,842.552,,Actual
+2020,446,Health and personal care stores,350.121,,Actual
+2020,447,Gasoline stations,428.357,,Actual
+2020,448,Clothing and clothing access. stores,194.92,,Actual
+2020,451,"Sporting goods, hobby, musical instrument, and book stores",80.3,,Actual
+2020,452,General merchandise stores,727.05,,Actual
+2020,453,Miscellaneous store retailers,115.433,,Actual
+2020,454,Nonstore retailers,937.591,,Actual
+2020,722,Food services and drinking places,640.494,,Actual
+2021,441,Motor vehicle and parts dealers,1452.523,,Actual
+2021,442,Furniture and home furnishings stores,138.05,,Actual
+2021,443,Electronics and appliance stores,92.364,,Actual
+2021,444,Building mat. and garden equip. and supplies dealers,478.243,,Actual
+2021,445,Food and beverage stores,882.923,,Actual
+2021,446,Health and personal care stores,381.299,,Actual
+2021,447,Gasoline stations,571.311,,Actual
+2021,448,Clothing and clothing access. stores,282.703,,Actual
+2021,451,"Sporting goods, hobby, musical instrument, and book stores",98.525,,Actual
+2021,452,General merchandise stores,795.778,,Actual
+2021,453,Miscellaneous store retailers,143.476,,Actual
+2021,454,Nonstore retailers,1082.489,,Actual
+2021,722,Food services and drinking places,825.708,,Actual
+2022,441,Motor vehicle and parts dealers,1495.937,,Actual
+2022,442,Furniture and home furnishings stores,140.504,,Actual
+2022,443,Electronics and appliance stores,91.051,,Actual
+2022,444,Building mat. and garden equip. and supplies dealers,508.39,,Actual
+2022,445,Food and beverage stores,948.836,,Actual
+2022,446,Health and personal care stores,397.019,,Actual
+2022,447,Gasoline stations,734.337,,Actual
+2022,448,Clothing and clothing access. stores,293.29,,Actual
+2022,451,"Sporting goods, hobby, musical instrument, and book stores",98.941,,Actual
+2022,452,General merchandise stores,860.322,,Actual
+2022,453,Miscellaneous store retailers,153.779,,Actual
+2022,454,Nonstore retailers,1193.693,,Actual
+2022,722,Food services and drinking places,957.444,,Actual
+2023,441,Motor vehicle and parts dealers,1559.169,,Actual
+2023,442,Furniture and home furnishings stores,135.587,,Actual
+2023,443,Electronics and appliance stores,90.19,,Actual
+2023,444,Building mat. and garden equip. and supplies dealers,491.455,,Actual
+2023,445,Food and beverage stores,970.557,,Actual
+2023,446,Health and personal care stores,429.495,,Actual
+2023,447,Gasoline stations,650.492,,Actual
+2023,448,Clothing and clothing access. stores,296.451,,Actual
+2023,451,"Sporting goods, hobby, musical instrument, and book stores",98.228,,Actual
+2023,452,General merchandise stores,882.007,,Actual
+2023,453,Miscellaneous store retailers,155.121,,Actual
+2023,454,Nonstore retailers,1314.618,,Actual
+2023,722,Food services and drinking places,1066.101,,Actual
+2024,441,Motor vehicle and parts dealers,1595.6,,Actual
+2024,442,Furniture and home furnishings stores,132.713,,Actual
+2024,443,Electronics and appliance stores,91.183,,Actual
+2024,444,Building mat. and garden equip. and supplies dealers,488.457,,Actual
+2024,445,Food and beverage stores,991.506,,Actual
+2024,446,Health and personal care stores,444.94,,Actual
+2024,447,Gasoline stations,631.512,,Actual
+2024,448,Clothing and clothing access. stores,303.743,,Actual
+2024,451,"Sporting goods, hobby, musical instrument, and book stores",95.504,,Actual
+2024,452,General merchandise stores,904.488,,Actual
+2024,453,Miscellaneous store retailers,163.519,,Actual
+2024,454,Nonstore retailers,1421.523,,Actual
+2024,722,Food services and drinking places,1121.282,,Actual
+2025,441,Motor vehicle and parts dealers,1657.404,,Actual
+2025,442,Furniture and home furnishings stores,135.575,,Actual
+2025,443,Electronics and appliance stores,92.045,,Actual
+2025,444,Building mat. and garden equip. and supplies dealers,481.937,,Actual
+2025,445,Food and beverage stores,1015.255,,Actual
+2025,446,Health and personal care stores,475.584,,Actual
+2025,447,Gasoline stations,622.503,,Actual
+2025,448,Clothing and clothing access. stores,320.249,,Actual
+2025,451,"Sporting goods, hobby, musical instrument, and book stores",97.608,,Actual
+2025,452,General merchandise stores,922.643,,Actual
+2025,453,Miscellaneous store retailers,178.645,,Actual
+2025,454,Nonstore retailers,1519.244,,Actual
+2025,722,Food services and drinking places,1181.104,,Actual
+2026,441,Motor vehicle and parts dealers,1735.64,0.7939,Predicted
+2026,442,Furniture and home furnishings stores,147.09,0.3759,Predicted
+2026,443,Electronics and appliance stores,91.04,-0.1025,Predicted
+2026,444,Building mat. and garden equip. and supplies dealers,547.93,0.9739,Predicted
+2026,445,Food and beverage stores,1075.89,0.9667,Predicted
+2026,446,Health and personal care stores,480.62,0.9134,Predicted
+2026,447,Gasoline stations,720.42,0.1902,Predicted
+2026,448,Clothing and clothing access. stores,322.24,-0.1569,Predicted
+2026,451,"Sporting goods, hobby, musical instrument, and book stores",104.7,0.0393,Predicted
+2026,452,General merchandise stores,958.3,0.8139,Predicted
+2026,453,Miscellaneous store retailers,183.22,0.7307,Predicted
+2026,454,Nonstore retailers,1649.76,0.9565,Predicted
+2026,722,Food services and drinking places,1210.66,0.7081,Predicted
