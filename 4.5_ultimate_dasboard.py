@@ -5,43 +5,35 @@ from dash import dcc, html, Input, Output
 import plotly.express as px
 import os
 
-# 1. Data Processing Logic
 script_dir = os.path.dirname(os.path.abspath(__file__))
 db_path = os.path.join(script_dir, "retail_data.db")
 
 def load_growth_data():
     conn = sqlite3.connect(db_path)
-    # Pulling only 'Not Adjusted' data
     query = "SELECT NAICS_Code, Category, Year, Sales_Millions FROM sales_history WHERE Adjustment_Status = 'Not Adjusted'"
     raw_df = pd.read_sql(query, conn)
     conn.close()
 
-    # Filter: Keep only 3-digit NAICS codes (to avoid hierarchical double-counting)
     raw_df['NAICS_Code'] = raw_df['NAICS_Code'].astype(str).str.replace('.0', '', regex=False)
     df_3digit = raw_df[raw_df['NAICS_Code'].str.len() == 3].copy()
 
-    # Step 1: Aggregate monthly data to Annual totals
     annual_df = df_3digit.groupby(['Year', 'NAICS_Code', 'Category'])['Sales_Millions'].sum().reset_index()
     annual_df.rename(columns={'Sales_Millions': 'Annual_Sales'}, inplace=True)
     annual_df = annual_df.sort_values(['NAICS_Code', 'Year'])
 
-    # Step 2: Calculate Growth Rate per Category ((Final - Initial) / Initial) * 100
     annual_df['Growth_Rate'] = annual_df.groupby('NAICS_Code')['Annual_Sales'].pct_change() * 100
 
-    # Step 3: Calculate Total Market Growth (Aggregate of all 3-digit sectors)
     total_market = annual_df.groupby('Year')['Annual_Sales'].sum().reset_index()
     total_market['Growth_Rate'] = total_market['Annual_Sales'].pct_change() * 100
     total_market['NAICS_Code'] = 'TOTAL'
     total_market['Category'] = 'Total US Retail Market'
-    
-    # Combine individual sectors with the Total Market baseline
+
     return pd.concat([annual_df, total_market], ignore_index=True)
 
 df = load_growth_data()
-# Get unique list of sectors for the dropdown (excluding the Total baseline)
+
 sectors = df[df['NAICS_Code'] != 'TOTAL'][['Category', 'NAICS_Code']].drop_duplicates()
 
-# 2. App Layout
 app = dash.Dash(__name__)
 
 app.layout = html.Div([
@@ -86,7 +78,6 @@ def update_chart(selected_naics, selected_years):
         (df['Year'].between(selected_years[0], selected_years[1]))
     ]
     
-    # Generate the Line Chart
     fig = px.line(
         dff, 
         x="Year", 
@@ -98,9 +89,7 @@ def update_chart(selected_naics, selected_years):
         line_shape="linear"
     )
 
-    # Make the "TOTAL" market line stand out (Thicker and dashed)
     fig.for_each_trace(lambda t: t.update(line=dict(width=5, dash='dash')) if t.name == 'TOTAL' else t.update(line=dict(width=3)))
-
     fig.update_layout(
         template="simple_white",
         hovermode="x unified",
@@ -109,7 +98,6 @@ def update_chart(selected_naics, selected_years):
     )
     
     return fig
-
 if __name__ == '__main__':
     print("Growth Dashboard starting...")
     print("Visit http://127.0.0.1:8050/ in your browser.")
